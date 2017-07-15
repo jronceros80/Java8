@@ -1,6 +1,5 @@
 package ejercicios;
 
-
 public class DefaultMethod implements PersonaA, PersonaB{
 
 	public static void main(String[] args) {
