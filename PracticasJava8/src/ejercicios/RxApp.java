@@ -28,7 +28,7 @@ public class RxApp {
 		Observable<Integer> obs1 = Observable.from(lista1);
 		Observable<Integer> obs2 = Observable.from(lista2);
 		
-		/*Observable.merge(obs1, obs2).subscribe(new Action1<Integer>(){
+		/*  Observable.merge(obs1, obs2).subscribe(new Action1<Integer>(){
 			@Override
 			public void call(Integer numero) {
 				if(numero == 1){
