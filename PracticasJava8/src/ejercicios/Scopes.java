@@ -1,5 +1,5 @@
 package ejercicios;
-
+//scopes
 public class Scopes {
 	
 	public static double atributo1; 

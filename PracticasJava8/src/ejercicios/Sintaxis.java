@@ -1,5 +1,6 @@
 package ejercicios;
 
+//
 public class Sintaxis {
 
 	public double probarSintaxis(){
@@ -15,7 +16,7 @@ public class Sintaxis {
 			int y;
 			return x+y;
 		};
-		return op.calcular();*/
+		return op.calcular();  */
 		
 		Operacion op = (double ob1, double ob2)->(ob1+ob2)/2;
 		return op.calcular(3, 2);
